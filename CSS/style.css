@@ -1,0 +1,14 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+li {
+  text-decoration: underline;
+  color: blue;
+}
+ul {
+  border: 1px solid blueviolet;
+}
+h1,
+span {
+  color: green;
+}
