@@ -1,6 +1,63 @@
-body {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+* {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background: goldenrod;
+  max-width: 1100px;
+  margin: 0 auto;
 }
+/* Tags */
+h1 {
+  display: block !important;
+  transition: 900ms;
+}
+body > h1:hover {
+  text-decoration: underline;
+  color: fuchsia;
+  cursor: pointer;
+  background-color: lightgoldenrodyellow;
+}
+p {
+  padding: 0 15px;
+}
+a {
+  text-decoration: none;
+  color: blueviolet;
+}
+h1 {
+  text-align: center;
+}
+li {
+  padding: 10px;
+}
+button {
+  background: green;
+  color: red;
+  font-weight: bold;
+  padding: 10px;
+  margin: 5px;
+}
+
+/* IDs */
+#registro {
+  text-align: center;
+}
+/* Classes */
+.copy {
+  font-size: 8px;
+  text-align: center;
+}
+.container {
+  display: flex;
+  text-align: justify;
+  border: 1px solid green;
+  padding: 30px;
+  margin: 10px;
+}
+.lista_footer {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+/* Exemplo aula 5
 li {
   text-decoration: underline;
   color: blue;
@@ -11,4 +68,4 @@ ul {
 h1,
 span {
   color: green;
-}
+} */
