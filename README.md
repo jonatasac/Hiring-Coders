@@ -14,3 +14,11 @@ Repositório criado para o treinamento da Hiring Coders #3.
     - Material icon Theme - Adiciona os ícones das linguagens ao VS Code.
     - Prettier - Code formatter - Formata o código automaticamente.
 
+## Links úteis
+
+- **HTML**
+  - [MDN HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML) - Versão em português!
+  - [w3 schools](https://www.w3schools.com/) - Serve para outras linguagens! Site em inglês!
+- **CSS**
+  - [MDN CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS) - Versão em Português!
+  - [CSS Tricks - Almanac](https://css-tricks.com/almanac/) - Site em Inglês!
