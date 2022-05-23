@@ -23,3 +23,8 @@ Repositório criado para o treinamento da Hiring Coders #3.
 - **CSS**
   - [MDN CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS) - Versão em Português!
   - [CSS Tricks - Almanac](https://css-tricks.com/almanac/) - Site em Inglês!
+  - [Font Awesome](https://fontawesome.com/) - Itens para seu site!
+  - [Pexels](https://www.pexels.com/pt-br/) - Backgrounds.
+  - [UI Gradients](https://uigradients.com/#Zinc) - Site auxílio a criação de gradientes.
+  - [CSS Gradients](https://mycolor.space/gradient) - Site auxílio a criação de gradientes.
+  - [Google Fonts](https://fonts.google.com/) - Site para selecionar as fontes.
