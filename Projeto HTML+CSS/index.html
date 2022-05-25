@@ -42,10 +42,14 @@
           <h1>Jonatas "Solus" Canuto</h1>
           <h5>Full Stack Developer</h5>
         </div>
-        <div onclick="displayAbout()" id="arrow">
-          <i id="animation" class="fa-solid fa-circle-down"></i>
+        <div id="arrow">
+          <i
+            onclick="displayAbout()"
+            id="animation"
+            class="fa-solid fa-circle-down"
+          ></i>
         </div>
-        <div style="display: none;" id="about">
+        <div style="display: none" id="about">
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores
             quas aspernatur quaerat assumenda? Excepturi cum eos iure,
@@ -66,10 +70,10 @@
     </main>
     <script>
       function displayAbout() {
-        var arrow = document.getElementById('animation');
-        arrow.classList.toggle('rotate');
-        var display = document.getElementById('about');
-        display.classList.toggle('active');
+        var arrow = document.getElementById("animation");
+        arrow.classList.toggle("rotate");
+        var display = document.getElementById("about");
+        display.classList.toggle("active");
       }
     </script>
   </body>
