@@ -28,3 +28,4 @@ Repositório criado para o treinamento da Hiring Coders #3.
   - [UI Gradients](https://uigradients.com/#Zinc) - Site auxílio a criação de gradientes.
   - [CSS Gradients](https://mycolor.space/gradient) - Site auxílio a criação de gradientes.
   - [Google Fonts](https://fonts.google.com/) - Site para selecionar as fontes.
+  - [Animista](https://animista.net/) - Site com animações pro CSS.

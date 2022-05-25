@@ -20,7 +20,9 @@
   <body>
     <header>
       <div>
-        <h3>Solus</h3>
+        <a target="_blank" href="./index.html"
+          ><img src="./Imagens/semfundo.png" alt="Logo Jon Solus"
+        /></a>
       </div>
       <ul>
         <li>
@@ -40,14 +42,16 @@
           <h1>Jonatas "Solus" Canuto</h1>
           <h5>Full Stack Developer</h5>
         </div>
-        <div id="arrow">
-          <i class="fa-solid fa-circle-down"></i>
+        <div onclick="displayAbout()" id="arrow">
+          <i id="animation" class="fa-solid fa-circle-down"></i>
         </div>
-        <div id="about">
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores quas
-          aspernatur quaerat assumenda? Excepturi cum eos iure, architecto
-          deserunt explicabo at consectetur, aperiam error quaerat ut. Pariatur
-          minima dolorum quasi.</p>
+        <div style="display: none;" id="about">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores
+            quas aspernatur quaerat assumenda? Excepturi cum eos iure,
+            architecto deserunt explicabo at consectetur, aperiam error quaerat
+            ut. Pariatur minima dolorum quasi.
+          </p>
         </div>
         <div class="form">
           <div>
@@ -60,5 +64,13 @@
         </div>
       </section>
     </main>
+    <script>
+      function displayAbout() {
+        var arrow = document.getElementById('animation');
+        arrow.classList.toggle('rotate');
+        var display = document.getElementById('about');
+        display.classList.toggle('active');
+      }
+    </script>
   </body>
 </html>
