@@ -103,6 +103,7 @@ header ul li a:hover {
   padding: 5px 10px;
   border: none;
   border-radius: 5px 0px 0px 5px;
+  color: rgb(85, 182, 6);
 }
 .form button {
   width: 15%;
